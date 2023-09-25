@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.back{
+    width: 100%;
+    height: 603px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)), url(backimg.jpg);
+    background-repeat: no-repeat;    
+}
+#logo{
+    position: relative;
+    left: 80px;
+    top: 25px;
+}
+.nav h1{
+    width: 60px;
+    
+}
+.navlist {
+    list-style-type: none;
+    position: absolute;
+    left: 700px;
+    top: 20px;
+} 
+.navlist li,button{
+    float: left;
+    padding: 10px;
+}
+.navlist button{
+    background-color: greenyellow;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 15px;
+    border: 1px solid black;
+}
+.navlist a{
+    color: aliceblue;
+    text-decoration: none;   
+}
+.navlist a:hover{
+    color: orange;
+}
+main{
+    position: relative;
+    top: 10%;
+}
+.tex p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 420px;
+    position: relative;
+    left: 70px;
+    top: 80px;
+}
+.spcw {
+    color: rgb(216, 102, 21);
+}
+.tex hr{
+    position: relative;
+    top: 100px;
+    left: 70px;
+    width: 50px;
+    height: 5px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    
+}
+#aa{
+    font-size: small;
+    position: relative;
+    top: 120px;
+}
+.button {
+    position: relative;
+    top: 200px;
+    left: 80px;
+}
+#flex1 {
+    margin-right: 25px;
+    background-color: rgb(35, 161, 35);
+    border: 1px solid black;
+    cursor: pointer;
+}
+#flex2 {
+    background-color: rgb(234, 96, 11);
+    border: 1px solid black;
+    cursor: pointer;
+}
+form{
+    background-color: rgb(235, 228, 228);
+    opacity: 0.75;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    right: 70px;
+}
+.formlist {
+    padding: 2px;
+    margin: 2px;
+}
+.formlist input{
+    width: 90%;
+}
